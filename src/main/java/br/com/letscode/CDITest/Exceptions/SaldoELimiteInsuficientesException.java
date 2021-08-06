@@ -1,4 +1,4 @@
-package br.com.letscode.CDITest.Exception;
+package br.com.letscode.CDITest.Exceptions;
 
 public class SaldoELimiteInsuficientesException extends Throwable {
     private String message;
