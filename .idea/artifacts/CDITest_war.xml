@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CDITest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CDITest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CDITest-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CDITest:war exploded" />
+    </root>
+  </artifact>
+</component>
