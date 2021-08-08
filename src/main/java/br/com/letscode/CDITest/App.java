@@ -1,15 +1,18 @@
 package br.com.letscode.CDITest;
+import br.com.letscode.CDITest.Domains.Cadastro;
+import br.com.letscode.CDITest.Domains.Usuario;
 import br.com.letscode.CDITest.Exceptions.OpcaoInvalidaException;
 import br.com.letscode.CDITest.Exceptions.PossuiContaException;
 import br.com.letscode.CDITest.Exceptions.SaldoELimiteInsuficientesException;
 import br.com.letscode.CDITest.Exceptions.SaldoInsuficienteException;
+import org.jboss.weld.environment.se.WeldContainer;
 
 import java.util.Random;
 import java.util.Scanner;
 
 public class App {
-
     public static void main( String[] args ) throws PossuiContaException, OpcaoInvalidaException, SaldoInsuficienteException, SaldoELimiteInsuficientesException {
+
         executar();
     }
 

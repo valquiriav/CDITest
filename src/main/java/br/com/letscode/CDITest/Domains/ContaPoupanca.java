@@ -1,10 +1,11 @@
-package br.com.letscode.CDITest;
+package br.com.letscode.CDITest.Domains;
 
+import br.com.letscode.CDITest.Domains.Conta;
 import br.com.letscode.CDITest.Exceptions.SaldoInsuficienteException;
 
 import java.util.Scanner;
 
-public class ContaPoupanca extends Conta{
+public class ContaPoupanca extends Conta {
 
     public ContaPoupanca() {
         this.setSaldo(100);

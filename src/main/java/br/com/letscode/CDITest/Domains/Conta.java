@@ -1,4 +1,4 @@
-package br.com.letscode.CDITest;
+package br.com.letscode.CDITest.Domains;
 
 import br.com.letscode.CDITest.Exceptions.SaldoELimiteInsuficientesException;
 import br.com.letscode.CDITest.Exceptions.SaldoInsuficienteException;

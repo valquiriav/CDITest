@@ -1,5 +1,8 @@
-package br.com.letscode.CDITest;
+package br.com.letscode.CDITest.Domains;
 
+import br.com.letscode.CDITest.Domains.Conta;
+import br.com.letscode.CDITest.Domains.ContaEspecial;
+import br.com.letscode.CDITest.Domains.ContaPoupanca;
 import br.com.letscode.CDITest.Exceptions.OpcaoInvalidaException;
 import br.com.letscode.CDITest.Exceptions.PossuiContaException;
 import br.com.letscode.CDITest.Exceptions.SaldoELimiteInsuficientesException;
